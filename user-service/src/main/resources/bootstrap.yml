@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: userservice
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      server-addr: http://192.168.0.120:80
+      discovery:
+          cluster-name: HZ
+      config:
+        file-extension: yaml
